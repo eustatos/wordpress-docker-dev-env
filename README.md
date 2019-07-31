@@ -58,7 +58,7 @@ For example, if you want to develop new theme based on `underscores`
 docker-compose exec -T wp-cli wp scaffold _s \
   sample-theme \
   --theme_name="Sample Theme" \
-  --author="John Doe" \
+  --author="John Doe"
 ```
 This command create folder `sample-theme` in `wp-content` and you can start to
 develop
