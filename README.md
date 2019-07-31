@@ -19,7 +19,11 @@ Default admin password - `123`
 
 You can chage this and other environment variables in `site.env` and `.env`.
 
-Now you can modify or create content in folder `wp-content`
+Now you can modify or create content in folder `wp-content`.
+If you have trouble with permissions - run:
+```bash
+sudo usermod -a -G www-data $USER
+```
 
 ## Customization
 
