@@ -41,9 +41,9 @@ wp core install \
   --admin_user=$ADMIN_USER \
   --admin_password=$ADMIN_PASSWORD \
   --admin_email=$ADMIN_EMAIL \
-# add for skip created default themes
+# add for skip creation default themes
   --skip-themes
-# add for skip created default plugins
+# add for skip creation default plugins
   --skip-plugins
   --allow-root
 ```
