@@ -14,3 +14,5 @@ wp core install \
   --admin_password=$ADMIN_PASSWORD \
   --admin_email=$ADMIN_EMAIL \
   --allow-root
+chown -R www-data:www-data wp-content
+chmod -R g+w wp-content
